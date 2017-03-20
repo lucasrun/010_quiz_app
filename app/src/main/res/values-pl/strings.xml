@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">android_quiz_app</string>
+    <string name="button_start">START</string>
+    <string name="click_to_answer">kliknij, aby odpowiedzieć</string>
+    <string name="insert_name">Podaj swoje imię</string>
+    <string name="please_insert_name">Proszę wstaw swoje imię</string>
+
+    <string-array name="button_array">
+        <item>START</item>
+        <item>NEXT</item>
+        <item>FINISH</item>
+        <item>RESET</item>
+    </string-array>
+
+    <string-array name="question_array">
+        <item>Pytanie 1.\nKtóra firma stworzyła Androida?</item>
+        <item>Pytanie 2.\nCo to jest Android?</item>
+        <item>Pytanie 3.\nAndroid bazuje na jakim jądrze?</item>
+        <item>Pytanie 4.\nADB oznacza:</item>
+        <item>Pytanie 5.\nCo oznacza ANR?</item>
+        <item>Pytanie 6.\nNa jakim języku bazuje Android:</item>
+        <item>Pytanie 7.\nKtóro z poniższych przetrzymuje kod źródłowy Java?</item>
+        <item>Pytanie 8.\nZwiększenie odległości pomiędzy widgetami jest możliwe dzięki:</item>
+        <item>Pytanie 9.\nAby stworzyć UI w Androidzie należy użyć:</item>
+        <item>Pytanie 10.\nKtóro z poniższych pracuje w tle i nie ma UI?</item>
+    </string-array>
+
+    <string-array name="answer_array">
+        <item>Apple</item>
+        <item>Google</item>
+        <item>Android Inc.</item>
+        <item>Microsoft</item>
+
+        <item>Desktopowy System Operacyjny</item>
+        <item>Język programowania</item>
+        <item>Mobilny system operacyjny</item>
+        <item>Srodowisko Programistyczne</item>
+
+        <item>jądrze Linux</item>
+        <item>jądrze Windows</item>
+        <item>jądrze Mac</item>
+        <item>jądrze Hybrydowym</item>
+
+        <item>Androidowy Most Debugerski</item>
+        <item>Aplikacyjny Most Debugerski</item>
+        <item>Androidowy Most Danych</item>
+        <item>Aplikacyjny Most Danych</item>
+
+        <item>Aplikacja nie rozpoznana</item>
+        <item>Android nie rozpoznany</item>
+        <item>Aplikacja nie odpowiada</item>
+        <item>żadne z powyższych</item>
+
+        <item>C</item>
+        <item>C++</item>
+        <item>VC++</item>
+        <item>Java</item>
+
+        <item>res/</item>
+        <item>assets/</item>
+        <item>src/</item>
+        <item>bin/</item>
+
+        <item>android:padding</item>
+        <item>android:space</item>
+        <item>android:layout_margin</item>
+        <item>android:layout_space</item>
+
+        <item>SQL i XML</item>
+        <item>Java i XML</item>
+        <item>Java i R</item>
+        <item>SQL i R</item>
+
+        <item>serwis</item>
+        <item>emulator</item>
+        <item>symulator</item>
+        <item>żadna z powyższych</item>
+    </string-array>
+
+    <string-array name="grading_array">
+        <item>Gratulacje</item>
+        <item>za uzyskanie twojego wyniku!</item>
+        <item>\nJesteś niesamowity!</item>
+        <item>\nDobry wynik!</item>
+        <item>\nSpróbuj jeszcze raz, aby stać się jeszcze lepszym!</item>
+        <item>Otrzymałeś:</item>
+        <item>/10 punktów</item>
+    </string-array>
+
+</resources>

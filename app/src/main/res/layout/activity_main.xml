@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/MainLayoutPortLand"
+    tools:context="com.example.android.a010_quiz_app.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/ImageViewPort" />
+
+    <ScrollView style="@style/ScrollViewLayoutPortLand">
+
+        <LinearLayout style="@style/LinearLayoutPortLand">
+
+            <RelativeLayout style="@style/RelativeLayoutPortLand">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/TextViewPortLand" />
+
+                <RatingBar
+                    android:id="@+id/ratingView"
+                    style="@style/RatingBarPortLand" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupView"
+                    style="@style/RadioGroupLayoutPortLand">
+
+                    <RadioButton
+                        android:id="@+id/radioButton1"
+                        style="@style/RadioButtonAndCheckBoxPort" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        style="@style/RadioButtonAndCheckBoxPort" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        style="@style/RadioButtonAndCheckBoxPort" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        style="@style/RadioButtonAndCheckBoxPort" />
+                </RadioGroup>
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    style="@style/RadioButtonAndCheckBoxPort"
+                    android:layout_below="@id/textView" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    style="@style/RadioButtonAndCheckBoxPort"
+                    android:layout_below="@id/checkBox1" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    style="@style/RadioButtonAndCheckBoxPort"
+                    android:layout_below="@id/checkBox2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    style="@style/RadioButtonAndCheckBoxPort"
+                    android:layout_below="@id/checkBox3" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editView"
+        style="@style/EditTextPortLand"
+        android:layout_above="@+id/buttonView" />
+
+    <Button
+        android:id="@+id/buttonView"
+        style="@style/ButtonPortLand"
+        android:layout_above="@+id/progressView" />
+
+    <ProgressBar
+        android:id="@+id/progressView"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="@dimen/bottom_views_width"
+        android:layout_height="@dimen/progress_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Progress" />
+
+</RelativeLayout>
