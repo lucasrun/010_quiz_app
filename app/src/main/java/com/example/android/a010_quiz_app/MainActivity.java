@@ -23,6 +23,7 @@ import static com.example.android.a010_quiz_app.R.drawable.quiz_portrait;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    float scalePixToDp = 0;
     //variables
     private Resources mResources;
     private ProgressBar mProgressBar;
@@ -38,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String[] mQuestionString, mButtonString, mAnswerString, mGradingString;
     private int mCurrentProgress = 0, mAppMainScore = 0;
     private long mClickTime = 0;
-    float scalePixToDp = 0;
 
     //**************
     //METHODS - MAIN
